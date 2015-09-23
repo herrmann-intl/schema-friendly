@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SchemaFriendly::VERSION
   spec.authors       = ["Andrew Swerlick"]
   spec.email         = ["andrew.swerlick@hbdi.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{ A series of patches and rake tasks to make active record work better with postgres schemas, particularly in regards to migrations }
+  spec.description   = %q{ This gem is meant to make it easier to run multiple applications inside of a single database using seperate postgres schemas }
   spec.homepage      = ""
   spec.license       = "MIT"
 
