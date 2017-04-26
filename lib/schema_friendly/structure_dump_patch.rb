@@ -1,4 +1,4 @@
-if defined(Rails) && Rails::VERSION::MAJOR < 5
+if defined?(Rails) && Rails::VERSION::MAJOR < 5
   ActiveRecord::Tasks::PostgreSQLDatabaseTasks.class_eval do
     def structure_dump(filename)
       set_psql_env
